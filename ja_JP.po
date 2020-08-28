@@ -1,9 +1,15 @@
+# Japanese translations for the English Web UI of the YOURLS URL shortening SAAS service
+# Copyright (C) 2020 Eido INOUE
+# This file is distributed under MIT License.
+# FIRST AUTHOR: Eido INOUE <havill@gmail.com>, 2020.
+#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2020-08-28 11:30+0900\n"
 "PO-Revision-Date: 2020-08-28 14:57+0900\n"
-"Last-Translator: Eido Inoue <havill[at]gmail.com>\n"
+"Last-Translator: Eido Inoue <havill@gmail.com>\n"
 "Language-Team: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
