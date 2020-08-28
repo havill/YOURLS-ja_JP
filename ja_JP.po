@@ -641,7 +641,7 @@ msgstr "詳細は、<a href=\"%s\">API の説明書</a>で調べてください"
 
 #: admin/tools.php:333
 msgid "See the <a href=\"%s\">Passwordless API</a> page on the wiki."
-msgstr "詳しいのは、<a href=\"%s\">Passwordless API</a>のウィキ・ページを参考してください。"
+msgstr "<a href=\"%s\">Passwordless API</a>のウィキ・ページを参考してください。"
 
 #: admin/upgrade.php:9 admin/upgrade.php:13
 msgid "Upgrade YOURLS"
