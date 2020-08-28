@@ -214,6 +214,10 @@ msgstr "はやく共有"
 msgid "URL"
 msgstr "URL"
 
+#: admin/index.php:40
+msgid "All fields"
+msgstr "全項目"
+
 #: admin/index.php:42 includes/functions-html.php:211
 #: includes/functions-html.php:464
 msgid "Title"
