@@ -1,15 +1,9 @@
-# Japanese translations for the English Web UI of the YOURLS URL shortening SAAS service
-# Copyright (C) 2020 Eido INOUE
-# This file is distributed under MIT License.
-# FIRST AUTHOR: Eido INOUE <havill@gmail.com>, 2020.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2020-08-28 11:30+0900\n"
-"PO-Revision-Date: 2020-08-28 14:57+0900\n"
-"Last-Translator: Eido Inoue <havill@gmail.com>\n"
+"PO-Revision-Date: 2020-08-28 16:22+0900\n"
+"Last-Translator: Eido Inoue <havill[at]gmail.com>\n"
 "Language-Team: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -130,7 +124,7 @@ msgstr[1] "%2$sに<strong>%1$s</strong>ヒット"
 
 #: yourls-infos.php:381 yourls-infos.php:443
 msgid "Click for more details"
-msgstr "詳しいのは、これをクリック"
+msgstr "詳しいのは、ここにクリック"
 
 #: yourls-infos.php:387 yourls-infos.php:390
 #, php-format
@@ -350,8 +344,8 @@ msgid ""
 "You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
 "strong> activated"
 msgstr ""
-"現在、インストールしたのは、<strong>%1$s</strong>で、<strong>%2$s</strong>を"
-"有効されている"
+"現在、インストールした<strong>%1$s</strong>で、<strong>%2$s</strong>個を有効"
+"にしています"
 
 #: admin/plugins.php:79
 msgid "Plugin Name"
@@ -359,7 +353,7 @@ msgstr "機能拡張名"
 
 #: admin/plugins.php:80
 msgid "Version"
-msgstr "バージョン"
+msgstr "ﾊﾞｰｼﾞｮﾝ"
 
 #: admin/plugins.php:81
 msgid "Description"
@@ -375,11 +369,11 @@ msgstr "操作"
 
 #: admin/plugins.php:118
 msgid "Deactivate"
-msgstr "無効にする"
+msgstr "無効"
 
 #: admin/plugins.php:122
 msgid "Activate"
-msgstr "有効にする"
+msgstr "有効"
 
 #: admin/plugins.php:133
 #, php-format
@@ -402,15 +396,15 @@ msgstr ""
 
 #: admin/plugins.php:159
 msgid "More plugins"
-msgstr "もっと機能拡張"
+msgstr "機能拡張をもっとゲット"
 
 #: admin/plugins.php:161
 msgid ""
-"For more plugins, head to the official <a href=\"http://yourls.org/pluginlist"
+"For more plugins, head to the official <a href=\"http://yourls.org/awesome"
 "\">Plugin list</a>."
 msgstr ""
-"機能拡張をもっと欲しかったら、公式の<a href=\"http://yourls.org/pluginlist\">"
-"機能拡張一覧</a>を見てください。"
+"機能拡張をもっと欲しかったら、公式の<a href=\"http://yourls.org/awesome\">機"
+"能拡張一覧</a>を見てください。"
 
 #: admin/tools.php:6
 msgid "Cool YOURLS Tools"
