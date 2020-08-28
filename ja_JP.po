@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2020-08-28 11:30+0900\n"
-"PO-Revision-Date: 2020-08-28 16:22+0900\n"
+"PO-Revision-Date: 2020-08-28 17:11+0900\n"
 "Last-Translator: Eido Inoue <havill[at]gmail.com>\n"
 "Language-Team: ja\n"
 "MIME-Version: 1.0\n"
@@ -334,8 +334,8 @@ msgstr "機能拡張"
 #, php-format
 msgid "%s plugin"
 msgid_plural "%s plugins"
-msgstr[0] "機能拡張：%s個"
-msgstr[1] "機能拡張：%s個"
+msgstr[0] "機能拡張は、%s個"
+msgstr[1] "機能拡張は、%s個"
 
 #. //translators: "you have '3 plugins' installed and '1' activated"
 #: admin/plugins.php:74
@@ -382,7 +382,7 @@ msgstr "機能拡張のファイル場所：%s"
 
 #: admin/plugins.php:150
 msgid "Toggle active/inactive plugins"
-msgstr "機能拡張をトグル"
+msgstr "有効・全部の切り替え"
 
 #: admin/plugins.php:157
 msgid ""
@@ -424,31 +424,39 @@ msgstr ""
 
 #: admin/tools.php:17
 msgid "Standard or Instant, Simple or Custom"
-msgstr ""
+msgstr "標準とインスタント、単純とカスタム"
 
 #: admin/tools.php:20
 msgid ""
 "The <span>Standard Bookmarklets</span> will take you to a page where you can "
 "easily edit or delete your brand new short URL."
 msgstr ""
+"<span>標準のブックマークレット</span>は、別のページで新しい短縮URLを編集した"
+"り削除したりできます。"
 
 #: admin/tools.php:22
 msgid ""
 "The <span>Instant Bookmarklets</span> will pop the short URL without leaving "
 "the page you are viewing."
 msgstr ""
+"<span>インスタントのブックマークレット</span>は、現在見ているページから移動し"
+"ないで短縮URLを作れます。"
 
 #: admin/tools.php:24
 msgid ""
 "The <span>Simple Bookmarklets</span> will generate a short URL with a random "
 "or sequential keyword."
 msgstr ""
+"<span>単純のブックマークレット</span>は、ランダムまたは順次的なキーワードで短"
+"縮URLを作ります。"
 
 #: admin/tools.php:26
 msgid ""
 "The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
 "keyword first."
 msgstr ""
+"<span>カスタムのキーワードのブックマークレット</span>は、短縮URLを作る前に希"
+"望のキーワードを設定できます。"
 
 #: admin/tools.php:30
 msgid ""
@@ -456,6 +464,9 @@ msgid ""
 "simply <span>select text</span> on the page you're viewing before clicking "
 "on your bookmarklet link"
 msgstr ""
+"リンクの概要を一緒に保存したかったら、リンクをマウスのドラッグなどで<span>テ"
+"キストをセレクト</span>してから、ブックマークレットのリンクをクリックすれば良"
+"いです"
 
 #: admin/tools.php:33
 msgid "The Bookmarklets"
@@ -464,10 +475,12 @@ msgstr "ザ・ブックマークレット"
 #: admin/tools.php:35 admin/tools.php:62
 msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
 msgstr ""
+"リンクをあなたのツールバーへクリックとドラッグしてください。（右クリックと気"
+"に入りすることもできる）"
 
 #: admin/tools.php:41
 msgid "Standard (new page)"
-msgstr "標準（新しいウィンドウで）"
+msgstr "標準（新しいウィンドウで開く）"
 
 #: admin/tools.php:42
 msgid "Instant (popup)"
@@ -484,23 +497,23 @@ msgstr "ツールバーをドラッグ！"
 
 #: admin/tools.php:48
 msgid "Shorten"
-msgstr "短くして"
+msgstr "短縮"
 
 #: admin/tools.php:49
 msgid "Instant Shorten"
-msgstr "インスタント短縮"
+msgstr "ｲﾝｽﾀﾝﾄ短縮"
 
 #: admin/tools.php:52
 msgid "Custom Keyword"
-msgstr "カスタムなキーワード"
+msgstr "カスタム・キーワード"
 
 #: admin/tools.php:53
 msgid "Custom shorten"
-msgstr "カスタム短縮"
+msgstr "ｶｽﾀﾑ短縮"
 
 #: admin/tools.php:54
 msgid "Instant Custom Shorten"
-msgstr "インスタントなカスタム短縮"
+msgstr "ｲﾝｽﾀﾝﾄ･ｶｽﾀﾑ短縮"
 
 #: admin/tools.php:59
 msgid "Social Bookmarklets"
@@ -516,15 +529,15 @@ msgstr "短縮して共有："
 
 #: admin/tools.php:68
 msgid "YOURLS &amp; Facebook"
-msgstr "YOURLS と Facebook"
+msgstr "YOURLS→Facebook"
 
 #: admin/tools.php:70
 msgid "YOURLS &amp; Twitter"
-msgstr "YOURLS と Twitter"
+msgstr "YOURLS→Twitter"
 
 #: admin/tools.php:72
 msgid "YOURLS &amp; Tumblr"
-msgstr "YOURLS と Twitter"
+msgstr "YOURLS→tumblr"
 
 #: admin/tools.php:80
 msgid "Prefix-n-Shorten"
@@ -537,6 +550,9 @@ msgid ""
 "browser's address bar, add \"<span>%s</span>\" to the beginning of the "
 "current URL (right before its 'http://' part) and hit enter."
 msgstr ""
+"ページを見ているとき、フルURLのブラウザのアドレスバーの先に入れば良いです。"
+"「<span>%s</span>」の現在のURLの前（'http://'の部分の前）に入れてEnterを押し"
+"てください。"
 
 #: admin/tools.php:85
 msgid ""
@@ -567,39 +583,43 @@ msgstr ""
 #: admin/tools.php:102
 #, php-format
 msgid "Your secret signature token: <strong><code>%s</code></strong>"
-msgstr ""
+msgstr "あなたの秘密認証トークン：<strong><code>%s</code></strong>"
 
 #: admin/tools.php:103
 msgid "(It's a secret. Keep it secret) "
-msgstr ""
+msgstr "（これは秘密です。公開したり共有したりしないでください） "
 
 #: admin/tools.php:106
 msgid ""
 "This signature token can only be used with the API, not with the admin "
 "interface."
 msgstr ""
+"認証トークンは、APIだけで使います。管理ホームのインターフェイスで使えません。"
 
 #: admin/tools.php:109
 msgid "Usage of the signature token"
-msgstr ""
+msgstr "認証トークンの使い方"
 
 #: admin/tools.php:110
 msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
 msgstr ""
+"APIリクエストで<tt>signature</tt>というパラメータを使えば良いです。例えば："
 
 #: admin/tools.php:114
 msgid "Usage of a time limited signature token"
-msgstr ""
+msgstr "時間制限の認証トークンの使い方"
 
 #: admin/tools.php:117 admin/tools.php:119
 msgid "actual value:"
-msgstr "実際の値："
+msgstr "実際の例："
 
 #: admin/tools.php:122
 msgid ""
 "Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
 "requests. Example:"
 msgstr ""
+"APIリクエストでは<tt>signature</tt>と<tt>timestamp</tt>を使えば良いです。例え"
+"ば："
 
 #: admin/tools.php:124
 msgid "Actual values:"
@@ -1247,7 +1267,7 @@ msgstr "ltr"
 #: includes/functions-plugins.php:387
 msgid "Could not find and deactivated plugin :"
 msgid_plural "Could not find and deactivated plugins :"
-msgstr[0] "見つからなくて無効されている拡張："
+msgstr[0] "見つからなくて無効されている拡張拡張："
 msgstr[1] "見つからなくて無効されている機能拡張："
 
 #: includes/functions-plugins.php:425
