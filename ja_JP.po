@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2020-08-28 11:30+0900\n"
-"PO-Revision-Date: 2020-08-28 17:11+0900\n"
+"PO-Revision-Date: 2020-08-28 17:21+0900\n"
 "Last-Translator: Eido Inoue <havill[at]gmail.com>\n"
 "Language-Team: ja\n"
 "MIME-Version: 1.0\n"
@@ -572,6 +572,8 @@ msgid ""
 "YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
 "<tt>password</tt> parameters."
 msgstr ""
+"YOURLSは、<tt>username</tt>と<tt>password</tt>のパラメータで従来的な方法でAPI"
+"コールができます。"
 
 #: admin/tools.php:98
 msgid ""
@@ -579,6 +581,8 @@ msgid ""
 "make API calls without using your login or your password, using a secret "
 "signature token."
 msgstr ""
+"セキュリティを気になる方は、ユーザ名とパスワードを使わずに秘密認証トークンで"
+"APIコールを呼びます。"
 
 #: admin/tools.php:102
 #, php-format
