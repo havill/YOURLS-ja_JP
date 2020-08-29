@@ -19,7 +19,10 @@ could be worded better, please feel free to contribute. It is open source, after
 1. Create the binary message file by either running `make` or `msgfmt -o ja_JP.mo ja_JP.po`
 2. In `config.php` edit (or add if it's not there) the following line:
     - `define( 'YOURLS_LANG', 'ja_JP' );`
-3. In directory `user/languages`, install the file `ja_JP.mo`
+3. In directory `user/languages`, install the file `ja_JP.mo`. If you're using Apache on
+CentOS or Ubuntu and YOURLS is in the root directory of web server html files
+(`/var/www/html`), running `make install` with the correct permissions should copy the
+binary message file into the right place.
 
 ## License
 
